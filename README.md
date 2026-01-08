@@ -10,11 +10,11 @@ Smart compression tool for developers. Right-click to zip projects while automat
 
 **The compression tool designed for developers.** Create clean, lightweight backups of your projects with a single Right-Click.
 
-[**Download on Gumroad**](PON_AQUI_TU_LINK_DE_GUMROAD) | [**View Website**](PON_TU_WEB_SI_TIENES)
+[**Download on Gumroad**](PON_AQUI_TU_LINK_DE_GUMROAD) 
 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Unix](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 
 </div>
 
@@ -61,6 +61,7 @@ Since this is a compiled binary tool, we distribute the installers via Gumroad.
 * **Instant Setup:**
     * **Windows:** Comes with a professional `.exe` installer. Sets up PATH and Context Menu automatically.
     * **Unix:** Includes a `install.sh` script for one-command installation.
+    *    To install in unix just do sudo ./install.sh
 
 ---
 
