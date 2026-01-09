@@ -8,20 +8,13 @@ Smart compression tool for developers. Right-click to zip projects while automat
 # 📦 czip
 ### Stop zipping `node_modules`.
 
-**The compression tool designed for developers.** Create clean, lightweight backups of your projects with a single Right-Click.
-
-[**Download on Gumroad**](PON_AQUI_TU_LINK_DE_GUMROAD) 
-
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Unix](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-
+**The compression tool is designed for developers.** Create clean, lightweight backups of your projects with a single Right-Click.
 </div>
 
 ---
 
 ## The Problem
-You want to share your project or make a quick backup. You hit "Compress", and 5 minutes later you have a **400MB ZIP file** because it included:
+You want to share your project or make a quick backup. You hit "Compress", and 5 minutes later, you have a **400MB ZIP file** because it included:
 - ❌ `node_modules` (Thousands of tiny files)
 - ❌ `.git` folder (History you don't need in a zip)
 - ❌ `target/` or `bin/` (Build artifacts)
@@ -39,31 +32,20 @@ You want to share your project or make a quick backup. You hit "Compress", and 5
 
 ---
 
-## 📸 See it in action
-
-### Windows
-*(Right-click integration and native notifications)*
-![Windows Demo](PON_AQUI_LINK_A_TU_GIF_DE_WINDOWS.gif)
-
-### Linux / macOS
-*(Terminal and Nautilus integration)*
-![Linux Demo](PON_AQUI_LINK_A_TU_GIF_DE_LINUX.gif)
-
----
-
 ## 📥 How to Get It
+The download to this tool is attached to the current repository.
 
-Since this is a compiled binary tool, we distribute the installers via Gumroad.
-
-### [👉 Download czip Installer](PON_AQUI_TU_LINK_DE_GUMROAD)
-
-* **Pay what you want:** You can get it for free or support the development with a small donation.
 * **Instant Setup:**
     * **Windows:** Comes with a professional `.exe` installer. Sets up PATH and Context Menu automatically.
     * **Unix:** Includes a `install.sh` script for one-command installation.
     *    To install in unix just do sudo ./install.sh
 
 ---
+
+## CLI 
+You can use the tool via cli by writing the following command - czip <path-to-compress>
+Example:
+czip C:\Users\myuser\folderexample
 
 ## ⚙️ Customization
 
@@ -77,3 +59,6 @@ target/
 .git/
 *.log
 secret_config.json
+```
+
+Feel free to modify the ignores.txt to add or remove ignored files in compression. This tool uses regex, so you are welcome to add your own expressions. 
