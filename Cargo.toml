@@ -1,0 +1,26 @@
+[package]
+name = "czip"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+zip = "7.0.0"
+walkdir = "2.3.2"
+regex = "1.12.2"
+msgbox = "0.7"
+
+[target.'cfg(windows)'.dependencies]
+winrt-notification = "0.5"
+[target.'cfg(unix)'.dependencies]
+notify-rust = "4"
+
+[profile.release]
+strip = true
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+
+
+[build-dependencies]
+winres = "0.1"
